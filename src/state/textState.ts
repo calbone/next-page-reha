@@ -2,7 +2,7 @@ import { atom, selector } from "recoil";
 
 export const textState = atom<string>({
   key: 'textState', 
-  default: '',
+  default: 'あああ',
 });
 
 export const charCountState = selector<number>({
